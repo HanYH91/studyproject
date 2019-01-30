@@ -33,8 +33,6 @@ public class Main2 {
 					res++;
 				else if(num1>9)
 					i = (i+10)/10*10;
-				else
-					i += (i/100)/2;
 			}
 			
 		}

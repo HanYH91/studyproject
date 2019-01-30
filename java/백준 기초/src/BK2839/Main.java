@@ -14,7 +14,7 @@ class Sugar
 			while(s3kg*3 + s5kg*5 <= N)
 			{
 				if(s3kg*3 + s5kg*5 == N)
-					return s5kg+s3kg;
+					return s5kg+s3kg;	
 				
 				s3kg++;
 			}
@@ -24,18 +24,17 @@ class Sugar
 }
 
 public class Main {
-
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
 		
 		int N = sc.nextInt();
-		
 		Sugar obj = new Sugar();
 		System.out.println(obj.WeightCount(N));
 		
 		sc.close();
+		
 	}
 
 }
